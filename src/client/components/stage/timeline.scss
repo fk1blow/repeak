@@ -1,0 +1,51 @@
+.timeline-helpers {
+  height: 200px;
+  padding-top: 10px;
+
+  ul, ol {
+    width: 100%;
+    height: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .timeline-position {
+    float: none;
+
+    li {
+      text-align: center;
+      width: 26px;
+      padding: 0 6px;
+      color: #B0AEAE;
+    }
+  }
+
+  .timeline-grid {
+    float: none;
+    clear: both;
+    height: 100px;
+
+    li {
+      width: 38px;
+      height: 200px;
+      text-align: center;
+
+      div {
+        width: 1px;
+        margin: 0 auto;
+        overflow: hidden;
+        height: 162px;
+        background-color: #E0E0E0;
+      }
+    }
+  }
+
+}
